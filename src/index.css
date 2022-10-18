@@ -1,0 +1,61 @@
+ul li{
+  list-style: none;
+}
+body{
+  overflow-x: hidden;
+}
+.col-md-4{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 280px;
+}
+.card img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-title{
+  height: 50px;
+  overflow: hidden;
+}
+.card-text{
+  height: 70px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.card a{
+ bottom: 10px; 
+}
+.footer{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+span{
+  font-size: 42px;
+}
+.Container{
+  margin-top: 60px;
+}
+
+.todo{
+  margin-left: 60px;
+  display: flex;
+}
+.todo button{
+  margin-left: 450px;
+  position: absolute;
+}
+.allprojects{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sticky-sidebar{
+  position: fixed;
+}
+.cartbtn{
+  border: 2px solid red;
+  color: gray;
+  font-weight: 800;
+}
